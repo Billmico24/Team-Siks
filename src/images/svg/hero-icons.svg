@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+<defs>
+
+<symbol id="arrow_right" viewBox="0 0 24 24" fill="none"><path d="M9 18L15 12L9 6" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="arrow_left" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</defs>
+</svg>

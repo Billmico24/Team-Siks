@@ -1,2 +1,135 @@
 @import './common';
-@import './example';
+@import './catalog';
+@import './header';
+@import './about-us';
+@import './footer';
+@import './new-watches';
+@import './sale';
+@import './hero';
+
+:root {
+    --black: #141414;
+    --lightblack: rgba(20, 20, 20, 0.50);
+    --white: #fff;
+    --dark-green: #1E2827;
+    --figcaption: rgba(255, 255, 255, 0.50);
+    --primary-black-color:  #141414;
+    --primary-white-color: #ffff;
+    --primary-color-gray: rgba(20, 20, 20, 0.50);
+
+}
+
+body {
+    font-family: 'epilouge', sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+h3,
+p {
+    margin: 0px;
+}
+
+.address {
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-style: none;
+    object-fit: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Epilogue"
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+body {
+    font-family: "Epilogue-Variable", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-color);
+    background-color: #FBFBFB;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+div {
+    margin: 0;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Mobile responsive container */
+@media screen and (min-width: 375px) {
+    .container {
+        width: calc(335px + 2*20px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet adaptive container */
+@media screen and (min-width: 768px) {
+    .container {
+        width: calc(704px + 2*32px);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+/* Desktop adaptive container */
+@media screen and (min-width: 1280px) {
+    .container {
+        width: calc(1176px + 2*24px);
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
