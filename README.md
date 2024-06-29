@@ -14,8 +14,9 @@ This project was developed collaboratively by Team Siks. The team created a simp
 
 ## Technologies Used
 - HTML
-- CSS
+- CSS / SCSS
 - JavaScript
+
 
 ## Project Description
 
