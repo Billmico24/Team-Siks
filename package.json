@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "parcel-Team-Siks",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://Billmico24.github.io/Team-Siks",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/goitacademy/parcel-Team-Siks.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Bill Mico Malazarte <Billmico24@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/parcel-Team-Siks/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
