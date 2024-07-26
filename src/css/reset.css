@@ -1,0 +1,89 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ body {
+   font-family: 'Epilogue', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.29;
+   letter-spacing: -0.02em;
+   color: var(--text-color);
+ }
+
+.title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--headers-color);
+  } 
+ 
+.container {
+
+  /* outline: 1px solid red; */
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+}

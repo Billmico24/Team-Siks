@@ -1,0 +1,17 @@
+:root {
+  /* --body-bg: #EFEFEF; */
+  --section-hero-bg-color: #141414;
+  --section-bg-color-white: #ffffff;
+  --section-bg-color-cream: #EFEFEF;
+  --footer-burger-accent-bg-dark-green: #1E2827;
+  --hero-h1-color: #ffffff;
+  --headers-color: #1e2827;
+  --text-color: #141414;
+  --text-price-color: rgb(20, 20, 20, 0.5);
+  --form-input-placeholder-color: rgb(20, 20, 20, 0.5);
+  --text-copyright-footer-color: #C6CDD1;
+  --text-white-color: #ffffff;
+  --social-icon-footer: rgb(255, 255, 255, 0.1);
+  --transform-cubik: cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
