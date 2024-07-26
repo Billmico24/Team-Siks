@@ -1,2 +1,0 @@
-var openMenuBtn=document.querySelector("[data-menu-open]"),closeMenuBtn=document.querySelectorAll("[data-menu-close]"),menu=document.querySelector("[data-menu]");function openMenu(){document.body.style.overflow="hidden",menu.classList.add("is-open")}function closeMenu(){menu.classList.remove("is-open"),document.body.style.overflow=""}openMenuBtn.addEventListener("click",openMenu),closeMenuBtn.forEach((function(e){e.addEventListener("click",closeMenu)}));
-//# sourceMappingURL=index.e7b41c2a.js.map
